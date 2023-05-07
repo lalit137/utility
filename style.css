@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.gallery{
+	border-top: 2px solid #888888;
+	margin-top: 16px;
+}
+h2 {
+/*	font-family: fantasy;*/
+	font-size: 2em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+ }
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container img {
+	width: 400px;
+	height: 240px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+.container img:hover {
+	transform: scale(1.1);
+}

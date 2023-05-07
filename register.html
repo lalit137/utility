@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+</head>
+<body>
+	<a href="index.html">Previous page</a>
+	<hr>
+	<form method="GET">
+		<label>First Name:<input type="text" name="fname"></label> <br><br>
+		Last Name:<input type="text" name="lname"><br><br>
+		Email: <input type="email" name="email" required><br><br>
+		Password: <input type="password" name="password" minlength="5"> <br><br>
+		Birthday: <input type="date" name="birthday"> <br><br>
+
+		<hr>
+		Gender:<br>	
+		<input type="radio" name="gender" value="male" >Male
+		<input type="radio" name="gender" value="female">Female
+		<input type="radio" name="gender" value="other">Other
+		<hr>
+		Pets:<br>
+		<input type="checkbox" name="cat">Cat <br>
+		<input type="checkbox" name="dog">Dog
+		<hr>
+
+		Cars:<br>
+		<select name="cars" multiple>
+			<option value="volvo">Volvo</option>
+			<option value="audi">Audi</option>
+		</select>
+		<br>
+		<br>
+		<input type="submit" value="Register!" name="register">
+		<input type="reset" name="reset">
+
+	</form>
+
+</body>	
+</html>
