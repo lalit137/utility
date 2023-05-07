@@ -3,9 +3,32 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+body {
+	margin: 24px;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	border-bottom: 1px solid green;
+	border-right: 1px solid green;
+}
+nav ul li a {
+	text-decoration: none;
+	color: rgb(150, 12, 35);
+	font-size: large;
+	font-weight: 900;
+}
 .gallery{
 	border-top: 2px solid #888888;
 	margin-top: 16px;
+}
+article {
+	padding: 24px;
+}
+article ul ol {
+	padding: 7px 34px;
 }
 h2 {
 /*	font-family: fantasy;*/
@@ -36,4 +59,7 @@ h2 {
 
 .container img:hover {
 	transform: scale(1.1);
+}
+footer {
+	text-align: center;
 }
