@@ -24,3 +24,13 @@ h3 {
 	text-transform: none;
 	letter-spacing: 0.01em;
 }
+
+#home {
+	text-align: left;
+}
+#home a {
+	text-decoration: none;
+	letter-spacing: normal;
+	color: #f1f3f7;
+	font-weight: 900;
+}
